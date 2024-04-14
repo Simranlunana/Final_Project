@@ -1,0 +1,253 @@
+
+<html>
+    <head>
+        <title>  Jelly Fish </title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script>$(document).ready(function() {
+            $(".header").css("position", "fixed");});
+        $(document).ready(function() {
+    $(".gallery-item").hide().first().show();
+    $("gallery-item").css("margin-left","50%")
+    function showNextSlide() {
+        var currentSlide = $(".gallery-item:visible");
+        var nextSlide = currentSlide.next(".gallery-item");
+        if (nextSlide.length === 0) {
+            nextSlide = $(".gallery-item").first();}
+        currentSlide.hide();
+        nextSlide.show(); } 
+    var slideInterval = setInterval(showNextSlide, 3000);});
+$(document).ready(function() {
+   
+    function closeSlideshow() {
+        $(".gallery").hide();
+        
+    }
+     $(".close-btn").click(closeSlideshow);
+});
+</script>
+      
+    </head>
+    <body>
+    <header class="header">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="fish-name">
+                    <a href="index.html">   </a>
+                </div>
+         <div class="nav-toggle">
+           <span></span>
+         </div>
+                <nav class="nav">
+                    <ul>
+                        <img class="img1" src="Images/logo.jpg" alt="logo">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#predators">Prey & Predators</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#count">World Count</a></li>
+                        <li><a href="file:///C:/Users/sukh3/OneDrive/Desktop/Assignment1/honesty.html">Honesty Declaration</a></li>
+                        <li><a href="file:///C:/Users/sukh3/OneDrive/Desktop/New%20folder%20(4)/Final_Project/ContactUS.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <h4><marquee>MARINE LIFE</marquee></h4>
+    <div class="fst"> 
+    <video class="video1"  autoplay muted loop > <source src="Images/vdo2.mp4" type="video/mp4">   
+    </video>       
+</div>
+    <div class="div0">
+    <div class="div1"> 
+        <h1>INTRODUCTION</h1>
+       <p>The plants, animals, and other creatures that inhabit the salty waters of estuaries along the coast
+         or the acidic waters of seas and oceans are referred to as aquatic life, sea life, or marine life. 
+         Aquarium life has a fundamental impact on the planet's nature. Carbon is stored and oxygen is produced
+          by marine organisms, primarily microorganisms. Some aquatic organisms even assist in the creation of
+           new land, such as coral reef constructors, and they also help to shape and safeguard shorelines.There
+            wouldn't be life on Earth without water. Because it can dissolve a wide range of substances, scientists
+             have traditionally referred to water as the solvent of choice. It becomes the ideal setting for bacteria
+              to thrive and chemical reactions.</p> 
+
+    </div>
+    <div class="div2">
+       
+
+    </div>
+   
+    </div><br><br>
+    <div class="div6">
+        <h3 class="h3">JELLYFISH</h3>
+        <video class="videobg" autoplay muted loop >
+        <source src="Images/vdo.mp4" type="video/mp4">
+        
+      </video></div>
+      <hr>
+
+   
+<div class="container1">
+    <div class="content1">
+        <h1 id="about">ABOUT</h1>
+        <p > Prior to the appearance of prehistoric animals, jellyfish have existed on Earth for millions of years. 
+            These jelly-like creatures, which can be observed in both deep and shallow seas, in addition to in coastlines,
+             are found vibrating along on our ocean currents. Pink, yellow, blue, and purple jellyfish are among the vivid 
+             colors discovered between them; some are clear. Additionally, they can produce light—a phenomenon known as bioluminescence!
+        No brain, heart, bones, or eyes are found in jellyfish. They are made up of tentacles containing tiny, stinging cells
+         and a smooth, bag-like body. The stinging tentacles of these outstanding insects serve to paralyze or stun their prey, that they then eat.</p>
+        <a href="https://en.wikipedia.org/wiki/Jellyfish" class="button">Read More</a>
+    </div>
+    <div class="image1">
+        <img src="Images/WhatsApp Image 2024-03-30 at 1.36.28 PM.jpeg" alt="Example Image">
+    </div>
+</div>
+<br>  <h6 class="pd1" id="predators">Jellyfish Predators</h6>
+<div class="last1">
+<div class="pddiv"> 
+<p class="pdp1">
+    Jellyfish don't have many enemies in the ocean because they're slimy and some can sting.
+     However, a few animals still eat them. Sea turtles, big fish like sunfish, and some birds 
+     sometimes snack on jellyfish. Even some little sea slugs munch on them, and they even use 
+     jellyfish's stingy cells to protect themselves. Despite these predators, jellyfish populations 
+     can still grow fast because they make lots of babies and can live in different conditions.
+      This can sometimes cause problems in the ocean and for us humans too.</p>
+    </div>
+     <div class="pdimg1"></div>
+    </div>
+
+
+     <h6 class="pd1">Prey</h6><br>
+   <div class="last">
+   <div class="pdimg2"></div>
+   <div class="pbdiv2">
+    <p class="pdp2" >
+    Jellyfish primarily prey on small aquatic creatures like plankton, tiny fish, fish eggs,
+     and other jellyfish. They catch their prey using their tentacles, which have special cells 
+     called nematocysts that release venom when touched. This venom helps jellyfish to immobilize 
+     or kill their prey. Some jellyfish species also eat zooplankton and small crustaceans. Despite
+      being good at catching prey, jellyfish themselves don't have many predators because of their stinging 
+      tentacles and sometimes poisonous body.</p>
+    </div>
+   </div>
+<h6 class="h6gallery" id="gallery"><marquee>Different  Types of Jellyfish</marquee></h6>
+<div class="gallery" >
+   
+    <div class="gallery-item">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+        <img src="Images/comb-jelly.webp" alt="Image 1">
+    </div>
+    <div class="flip-card-back">
+        <h2><u>COMB-Jelly</u></h2>
+                        <p class="p1">Despite its jelly-like appearance, the Comb Jelly is not a 
+                            jellyfish,belongs to the phylum Ctenophora.Unlike jellyfish,
+                             comb jellies do not possess stinging cells. Instead,they capture prey
+                              using specialized adhesive cells called colloblasts.These cells secrete
+                               a sticky substance that ensnares small marine organisms.</p>
+    </div>
+</div>
+            </div>
+        </div>
+    <div class="gallery-item">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">  
+        <img src="Images/box-jellyfish.webp" alt="Image 2">
+    </div>
+    <div class="flip-card-back">
+        <h2><u>BOX JELLYFISH</u></h2>
+        <p class="p1">Chironex fleckeri, holds the title of being the largest of the box jellyfish.
+             It commands
+              attention in the waters it inhabits. Its distinguishing feature lies in
+               its thick, bootlace-like tentacles that can stretch up to an impressive
+                length of 10 feet. These long tentacles are armed with extremely venomous
+                 cells called nematocysts, making encounters with this species potentially
+                  fatal, of course, you are a leatherback sea turtle.</p>
+    </div>
+</div>
+</div>
+</div>
+    <div class="gallery-item">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+        <img src="Images/portuguese-man-of-war.webp" alt="Image 3">
+    </div>
+    <div class="flip-card-back">
+        <h2><u>PORTUGUES-JELLYFISH</u></h2>
+        <p class="p1">Get ready to encounter one of the ocean's most intriguing creatures, the 
+            Portuguese Man-of-War. Despite its name, this marine hydrozoan is not a
+             true jellyfish but rather a colony of specialized organisms called zooids
+              working together as a single entity.</p>
+    </div>
+</div>
+</div></div>
+
+    <div class="gallery-item">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+        <img src="Images/moon-jellyfish.webp" alt="Image 4">
+    </div>
+    <div class="flip-card-back">
+        <h2><u>MOON JELLYFISH</u></h2>
+        <p class="p1">Moon Jellyfish, scientifically known as Aurelia aurita,
+             are ethereal creatures that gracefully glide through the ocean.
+              With their translucent and bell-shaped bodies,
+               floating moons in the water. These jellyfish are frequently encountered 
+               in coastal regions globally and one can often spot sizable gatherings while
+                snorkeling in Hawaii.</p>
+    </div>
+</div>
+</div>
+</div>
+
+    <div class="gallery-item">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+        <img src="Images/upside-down-jellyfish.webp" alt="Image 5">
+    </div>
+    <div class="flip-card-back">
+        <h2><u>UPSIDE-DOWN JELLYFISH</u></h2>
+        <p class="p1">Prepare to witness a jellyfish that defies gravity the Upside-Down Jellyfish.
+             Unlike their drifting counterparts, these jellies prefer to settle on the seafloor,
+              often inverting themselves and forming clusters that resemble soft coral. This unique
+               behavior,  sets it apart from other jellyfish species.</p>
+    </div>
+</div>
+</div>
+</div>
+    <div class="gallery-item">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+        <img src="Images/sea-nettle.webp" alt="Image 6">
+    </div>
+    <div class="flip-card-back">
+        <h2><u>SEA-NETTLE JELLYFISH</u></h2>
+        <p class="p1">The Sea Nettle is renowned for its vibrant and graceful appearance,
+             trailing tentacles and a translucent bell adorned with beautiful red,
+              or brown hues. Its long, flowing tentacles and vibrant coloration make it a true spectacle.
+               Beware, for its sting can cause a painful reaction in humans.</p>
+    </div>
+</div>
+</div>
+</div>
+</div>
+<button class="close-btn">Close Slideshow</button>
+<h1>Reference</h1>
+             <p class="p01"><a href= "https://www.citrusreef.com/blogs/news/types-of-jellyfish">FOR MORE ABOUT JELLYFISH</a></p>
+             <p class="p01"><A href="https://kids.nationalgeographic.com/animals/invertebrates/facts/jellyfish">CLICK HERE FOR MORE</A></p>
+             <p class="p01"><A href="https://www.mcsuk.org/news/fascinating-facts-about-jellyfish/">TO WATCH VIDEOS </A></p>
+   
+   
+  <br>
+  <script src="script.js"></script>
+<footer>
+    <p>&copy; 2024 Classic Web Page. All rights reserved.</p>
+</footer>
+    </body>
+</html>
